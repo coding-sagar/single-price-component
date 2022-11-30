@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+main{
+    max-width: 40rem;
+    height: 30rem;
+    margin: 10% auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px hsl(218, 22%, 67%);
+}
+.top-div{
+    background-color: #fff;
+    height: 13rem;
+    border-radius: 15px 15px 0 0;
+}
+.bottom-div{
+    display: flex;
+    height: 17rem;
+    color: #fff;
+}
+.left-div{
+    background-color: hsl(179, 62%, 43%);
+    flex: 1;
+    border-radius: 0 0 0 15px;
+}
+.right-div{
+    background-color: hsl(179, 62%, 43%);
+    flex: 1;
+    border-radius: 0 0 15px 0;
+    opacity: 80%;
+}
+h1{
+    padding: 5% 0 4% 6%;
+    margin: 0;
+    font-size: 1.7rem;
+    color: hsl(179, 62%, 43%);
+}
+h2{
+    padding-left: 6%;
+    margin: 0;
+    margin-bottom: 2.5%;
+    font-size: 1.3rem;
+    color: hsl(71, 73%, 54%);
+}
+.top-p{
+    padding-left: 6%;
+    margin: 0;
+    margin-right: 6%;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+}
+h3{
+    padding: 12% 0 8% 12%;
+    margin: 0;
+}
+.bottom-div p{
+    padding-left: 12%;
+    margin: 0;
+}
+.money{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+span{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-left: 1rem;
+    color: hsl(204, 43%, 93%);
+}
+.access{
+    padding-top: 3%;
+}
+button{
+    margin: 12%;
+    height: 3rem;
+    width: 76%;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px hsl(81, 22%, 58%);
+}
+.right-div p{
+    margin-bottom: 0.2rem;
+    color: hsl(204, 43%, 93%);
+    text-shadow: 1px 1px hsl(218, 22%, 67%);
+}
+
+@media screen and (max-width:700px) {
+
+    main{
+        margin: 15% 10%;
+    }
+    .top-div{
+        height: 17rem;
+    }
+    .top-p{
+        margin-top: 1.5rem;
+    }
+    .bottom-div{
+        flex-direction: column;
+    }
+    .left-div{
+        border-radius: 0;
+    }
+    .right-div{
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 2rem;
+    }
+    footer{
+        position: absolute;
+        top: 60rem;
+        left: 5rem;
+    }
+    
+}
